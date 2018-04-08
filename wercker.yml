@@ -8,9 +8,8 @@ build:
         flags: --buildDrafts=true
 deploy:
   steps:
-    - install-packages:
-        packages: git ssh-client
-    - lukevivier/gh-pages@0.2.1:
+    - zoejane/gh-pages:
         token: GIT_TOKEN
-        domain: hugo-wercker.ig.nore.me
-        basedir: public
+        repo: zoejane/awesome-static-websites
+        domain: hugo.zoejane.net
+        path: public
