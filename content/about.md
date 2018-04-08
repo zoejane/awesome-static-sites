@@ -1,8 +1,9 @@
 ---
 title: "About me"
 date: 2018-04-08T12:11:50+08:00
-draft: true
 ---
+
+![hugo logo](/img/hugo-logo.png)
 
 I'm a blogger and I love Hugo.
 
